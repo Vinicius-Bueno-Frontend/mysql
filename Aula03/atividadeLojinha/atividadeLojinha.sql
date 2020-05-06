@@ -26,7 +26,7 @@ create table tbprodutos(
 	idpro int primary key auto_increment,
     produto varchar(50) not null,
     valor decimal(10,2),
-    quantidade varchar(5)
+    quantidade int not null
 );
 
 describe tbprodutos;
